@@ -6,3 +6,10 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
+    
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://150.242.14.145:3306/RUAMBOT_NEW
+    username: Jenkin
+    password: password    
