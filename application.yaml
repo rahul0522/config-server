@@ -7,8 +7,7 @@ eureka:
   instance:
     hostname: localhost
     
-spring:
-  datasource:
+datasource:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://150.242.14.145:3306/RUAMBOT_NEW
     username: Jenkin
